@@ -4,6 +4,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 import { render } from 'react-dom';
+//Pages
+import Home from './Pages/Home/Home';
+import Music from './Pages/Music/Music';
+import About from './Pages/About/About';
+import Visuals from './Pages/Visuals/Visuals';
+//Components
+import Navigation from './Components/Navigation/Navigation';
+import Footer from './Components/Footer/Footer';
+
 
 ReactDOM.render((
 	<BrowserRouter>

@@ -14,7 +14,7 @@ render(){
 
 
 	return(
-
+		<h1>Visuals</h1>
 
 
 		);
