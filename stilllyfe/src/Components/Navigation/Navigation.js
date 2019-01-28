@@ -11,7 +11,7 @@ class Navigation extends Component{
 
 render(){
 
-const links =[{'to':'/','label':'home'},{'to':'/Music','label':'Music'},{'to':'/Visuals','label':'Visuals'},{'to':'/About','label':'Our Story'}];
+const links =[{'to':'/','label':'Home'},{'to':'/Music','label':'Music'},{'to':'/Visuals','label':'Visuals'},{'to':'/About','label':'Our Story'}];
 
 const navlinks = links.map(link=>{
 	return(
