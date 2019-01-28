@@ -23,9 +23,9 @@ const navlinks = links.map(link=>{
 
 	return(
 		
-		<tr>
+		<div>
 		{navlinks}
-		</tr>
+		</div>
 
 		);
 }

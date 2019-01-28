@@ -13,14 +13,13 @@ class Home extends Component{
 render(){
 const cardStyle={border:'solid black '}
 const pages = [
-{'title':'Home','to':'/'},
 {'title':'Our Story','to':'/About'},
 {'title':'Visuals','to':'/Visuals'},
 {'title':'Music','to':'/Music'}
 
 ]
 const cards =pages.map(pic=>{
-	return(<td>
+	return(<td key={pic.title}>
 			<Card style={cardStyle}>
 				<Link to={pic.to}>
 					<CardImg src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"/>
@@ -47,10 +46,11 @@ const cards =pages.map(pic=>{
 
 	return(
 		<table>
-		
+			<tbody>
 			<tr>
 				{cards}
 			</tr>
+			</tbody>
 		</table>
 
 
