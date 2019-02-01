@@ -12,14 +12,14 @@ class Footer extends Component{
 
 
 render(){
-
+const center ={'margin':'auto','text-align':'center','padding-top':'20px'}
 const date = new Date();
 const year = date.getFullYear();
 	return(
-		<p>
+		<p style={center}>
 			
 			<FontAwesomeIcon icon = {faCopyright}/>
-			{"Still Lyfe "+year}
+			{"  Still Lyfe "+year}
 		</p>
 
 

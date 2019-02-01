@@ -11,7 +11,8 @@ library.add(fab,fas);
 class Home extends Component{
 
 render(){
-const cardStyle={border:'solid black '}
+const cardStyle={border:'solid black', 'textAlign':'center'}
+const center = {'margin':'auto','text-align':'center'}
 const pages = [
 {'title':'Our Story','to':'/About'},
 {'title':'Visuals','to':'/Visuals'},
@@ -45,9 +46,9 @@ const cards =pages.map(pic=>{
 
 
 	return(
-		<table>
+		<table style={center}>
 			<tbody>
-			<tr>
+			<tr >
 				{cards}
 			</tr>
 			</tbody>
