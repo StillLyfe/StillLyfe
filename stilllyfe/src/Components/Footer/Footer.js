@@ -19,7 +19,7 @@ const year = date.getFullYear();
 		<p style={center}>
 			
 			<FontAwesomeIcon icon = {faCopyright}/>
-			{"  Still Lyfe "+year}
+			{"  Styll Life "+year}
 		</p>
 
 
